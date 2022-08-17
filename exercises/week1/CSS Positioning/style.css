@@ -1,0 +1,63 @@
+
+/* // ex1 - present */
+
+#blue {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+
+#red_h {
+    background-color: red;
+    width: 200px;
+    height: 10px;
+
+    /* margin-top: 20px; */
+    /* margin-left: -20px; */
+    /* margin-bottom: -20px; */
+
+    position: relative;     /* IMPORTANT -child acts "as it should" (relative to itself), allowed the use of top */
+    top: 20px;
+}
+
+#red_v {
+    background-color: red;
+    width: 10px;
+    height: 200px;
+    margin-left: 20px;
+
+    position: relative;    /* IMPORTANT -child acts "as it should" (relative to itself), , allowed the use of bottom  */
+    bottom: 20px;
+}
+
+
+
+/* 
+
+// official solution
+
+#parent {
+    display: inline-block;
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+}
+
+.child {
+    background-color: red;
+}
+
+#child-1 {
+    position: absolute;
+    width: 300px;
+    height: 20px;
+    top: 50px;
+}
+
+#child-2 {
+    position: absolute;
+    height: 300px;
+    width: 20px;
+    left: 50px;
+} */
