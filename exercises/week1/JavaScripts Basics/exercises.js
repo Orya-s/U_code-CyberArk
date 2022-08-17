@@ -3,15 +3,15 @@
 
 // ex1
 
-// (5 > 2) && false  // f
-// !("knife" === "sword")  // t
-// (1 < 2) || (-1 > -1) || !false  // t
-// ""  // f
-// (31 % 5) == "1"  // t
-// !!true  // t
-// "5th Avenue" != "5th Avenue"  // f
-// 52 !== "52"  // t
-// (undefined || null)  // f
+console.log((5 > 2) && false)  // f
+console.log(!("knife" === "sword"))  // t
+console.log((1 < 2) || (-1 > -1) || !false)  // t
+console.log("")  // f
+console.log((31 % 5) == "1")  // t
+console.log(!!true)  // t
+console.log("5th Avenue" != "5th Avenue")  // f
+console.log(52 !== "52")  // t
+console.log((undefined || null))  // f
 
 
 // ex2
