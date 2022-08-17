@@ -1,0 +1,20 @@
+#ex1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* margin-left: 100px;
+    margin-top: 100px; */
+    /* margin: 100px; */
+    padding-bottom: 100px;
+}
+
+#ex2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    /* margin-left: 100px;
+    margin-top: 100px; */
+    /* margin: 100px; */
+    padding-right: 100px;
+}
+

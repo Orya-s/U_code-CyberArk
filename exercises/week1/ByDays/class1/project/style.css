@@ -1,0 +1,77 @@
+h1 {
+    color: rgb(0, 217, 255);
+    font-family: 'Montserrat'
+}
+
+h2 {
+    /* font-family: "Helvetica"; */
+    font-family: 'Montserrat'
+}
+
+ul {
+    color:indianred;
+}
+
+button {
+    background-color: rgb(0, 208, 255);
+    color: black; 
+    border: 1px solid black;
+}  
+  
+button:hover {
+    background-color: rgb(0, 157, 255);
+    color: black;
+    border: 1px solid black;
+}  
+
+/* li:nth-child(2) {
+    background: red; 
+    color: rgb(0, 217, 255);
+} */
+
+
+/* All p elements that are direct descendants of a div are given green text */
+/*     
+div > p  {
+    color: green;
+} */
+
+/* All p elements that within a div are given blue text */
+div p {
+    color: rgba(4, 4, 93, 0.786);
+}
+
+
+#container {
+    background-color: gray;
+    height: 150px;
+    width: 250px;
+    border: 1.3px solid;
+    padding: 6px;
+    box-shadow: 5px 5px 5px #888888;
+}
+  
+#first {
+    height: 50px;
+    width: 50px;
+    background-color: cyan;
+    display: inline-block;
+    border: 1.5px solid black;
+}
+  
+#second {
+    height: 50px;
+    width: 50px;
+    background-color: #8e44ad;
+    display: inline-block;
+    border: 1.5px solid black;
+}
+  
+#Win {
+    background-color:rgb(4, 157, 4);
+    border: 1.5px solid green;
+}
+#Win:hover {
+    background-color:rgb(47, 197, 47);
+    border: 1.5px solid green;
+}  

@@ -1,0 +1,19 @@
+
+#tran {
+    color: rgba(0, 0, 0, 0.534);
+    background-color: rgba(76, 14, 134, 0.497);
+    top: 0%;
+    position: fixed;
+    width: 50%;
+    height: 12%;
+}
+
+
+#reg {
+    color: black;
+    background-color: rgb(76, 14, 134);
+    top: 11%;
+    position: fixed;
+    width: 50%;
+    height: 12%;
+}

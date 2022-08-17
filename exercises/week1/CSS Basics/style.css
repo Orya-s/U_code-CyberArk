@@ -1,0 +1,39 @@
+
+#container {
+    background-color: rgb(150, 148, 148);
+    height: 137px;
+    width: 212px;
+    /* border: 1.3px solid; */
+    /* padding: 6px; */
+    box-shadow: 5px 5px 5px #888888;
+    /* font-family: Arial; */
+}
+  
+#first {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(42, 179, 179);
+    display: inline-block;
+    border: 1.5px solid black;
+}
+  
+#second {
+    height: 50px;
+    width: 50px;
+    background-color: #f19238;
+    display: inline-block;
+    border: 1.5px solid black;
+}
+/* 
+input {
+    border: 0;
+} */
+  
+#Win {
+    background-color:rgb(4, 157, 86);
+    border: 1.5px solid green;
+}
+#Win:hover {
+    background-color:rgb(47, 197, 47);
+    /* border: 1.5px solid green; */
+}  
