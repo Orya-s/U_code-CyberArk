@@ -1,0 +1,84 @@
+
+body {
+    margin: 0%;
+}
+
+#container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    /* repeat(6, 1fr); */
+    grid-template-rows: 10fr 1fr;
+    /* repeat(5, 1fr); */
+    grid-template-areas: 
+
+    "f c"
+    "f m";
+}
+
+
+.friends {
+    grid-area: f;
+    background-color: rgb(159, 16, 231);
+
+    display: grid;
+    grid-template-rows: 1.25fr repeat(4,1fr);
+    /* grid-template-areas: 
+    "f0"
+    "f1"
+    "f2"
+    "f3"
+    "f4"; */
+}
+
+.fr {
+    margin: 7px;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+.fr > p{
+    grid-area: c;
+    /* margin: 5px; */
+    padding: 8px;
+    background-color: rgb(152, 98, 171);
+}
+
+
+.chat {
+    grid-area: c;
+    background-color: lightgray;
+}
+
+.msgBox {
+    grid-area: m;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* align-content:center;
+    justify-content: center; */
+
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-areas: 
+    "t s"
+}
+
+/* .msgBox > div {
+    color: gray;    
+} */
+
+.text {
+    grid-area: t;
+    color: gray; 
+    text-justify: center;
+}
+
+.send {
+    grid-area: s;
+    background-color: rgb(158, 14, 206);
+    color: white;
+    text-align: center;
+}
+
+
+
+
