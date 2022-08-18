@@ -1,0 +1,41 @@
+#container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+    "h h h h h h"
+    "f f f m m s"
+    "f f f m m s"
+    "f f f m m s"
+    "f f f m m s" ;
+    grid-gap: 0
+}
+
+.head{
+    grid-area: h;
+    background-color: orangered;
+}
+
+.side-nav{
+    grid-area: s;
+    background-color: orange;
+}
+
+.main{
+    grid-area: m;
+    background-color: turquoise;
+}
+
+.foot{
+    grid-area: f;
+    background-color: gainsboro;
+}
+
+
+/* // Important - grid posioning
+
+   align-content: center;  => up-and-down positioning
+   justify-content: end;   =>  left-and-right positioning 
+   
+*/
