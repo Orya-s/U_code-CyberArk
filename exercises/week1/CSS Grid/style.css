@@ -1,39 +1,4 @@
-/* .container{
-    padding: 10px;
-    position: relative;
-  }
   
-  .head{
-    height: 70px;
-    width: 90%;
-    right: 0;
-    position: absolute;
-    background-color: #a29bfe;
-    display:inline-block;
-  
-  }
-  
-  .side-nav{
-    height: 500px;;
-    width: 10%;
-    background-color: #6c5ce7;
-    display: inline-block;
-  }
-  
-  .main{
-    position: absolute;
-    display: inline-block;
-    width: 100%;
-  }
-  
-  .inner-content{
-    position: absolute;
-    top: 70px;
-    height: 430px;
-    width: 90%;
-    background-color:red;
-  } */
-
   #container {
     height: 100vh;
     display: grid;
