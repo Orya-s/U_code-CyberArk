@@ -1,0 +1,28 @@
+
+#container {
+    background-color: lightgray;
+    height: 150px;
+    width: 280px;
+    border: 1.3px solid;
+    padding: 8px;
+    box-shadow: 5px 5px 5px #888888;
+    
+    position: absolute;
+    margin-left: 50%;
+    left: -190px;
+    top: 50px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+
+#send {
+    background-color:rgb(4, 126, 157);
+    color: black; 
+    border: 1.5px solid rgb(8, 107, 132);
+}
+#send:hover {
+    background-color:rgb(42, 160, 189);
+}  
+
+
