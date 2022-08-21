@@ -132,7 +132,7 @@ const suspenseBuilder2 = {
 
         console.log("You are going to see the name in 3 seconds...")
 
-        setTimeout(() => { //this is the change
+        setTimeout(() => {  //this is the change
             console.log("The name is: " + this.name)
         }, 3000)
 
