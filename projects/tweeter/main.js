@@ -53,6 +53,8 @@ const Tweeter = function() {
     }
 
     const removePost = function(Pid) {
+        // fix delete in loop
+        
         for(const post in _posts){
             if(_posts[post]["id"] == Pid) {
                 _posts.splice(post, 1);
@@ -68,6 +70,8 @@ const Tweeter = function() {
     }
 
     const removeComment = function(Pid, Cid) {
+        // fix delete in loop
+
         const com = _getPostById(Pid)["comments"]
         for(const i in com) {
             if(com[i]["id"] == Cid) {
