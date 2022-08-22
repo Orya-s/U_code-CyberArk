@@ -125,12 +125,12 @@ console.log(tweeter.getPosts());
 
 tweeter.addComment("p1", "aiiiii");
 tweeter.addComment("p1", "biiiii");
-tweeter.addComment("p2", "ciiiii");  // already removed - throwing error / try&catch?
-// tweeter.addComment("p4", "diiiii");
-// tweeter.addComment("p5", "eiiiii");
-// console.log(tweeter.getPosts());
+// tweeter.addComment("p2", "ciiiii");  // already removed - throwing error / try&catch?
+tweeter.addComment("p4", "diiiii");
+tweeter.addComment("p5", "eiiiii");
+console.log(tweeter.getPosts());
 
-// tweeter.removeComment("p1", "c2");
-// tweeter.removeComment("p4", "c3");
-// console.log(tweeter.getPosts());
+tweeter.removeComment("p1", "c2");
+tweeter.removeComment("p4", "c3");
+console.log(tweeter.getPosts());
 
