@@ -1,0 +1,9 @@
+.box {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    border-radius: 2px;
+    margin: 10px;
+    box-shadow: 1px 1px 1px;
+    background-color: blueviolet;
+}
