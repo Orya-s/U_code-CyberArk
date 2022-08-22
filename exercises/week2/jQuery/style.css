@@ -1,0 +1,33 @@
+
+.B {
+    width: 40px;
+    height: 40px;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+
+#my-div {
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: purple;
+    display: inline-block;
+}
+
+.toRemove {
+    display: inline-block;
+    color: crimson;
+    border: 2px solid black;
+    padding: 7px;
+    margin: 20px;
+}
+
