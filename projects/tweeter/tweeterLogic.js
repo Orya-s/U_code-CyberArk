@@ -68,7 +68,7 @@ const Tweeter = function() {
     }
 
     const removeComment = function(Pid, Cid) {
-        // fix delete in loop
+        // fix delete in loop  // filter ?
 
         const com = _getPostById(Pid)["comments"]
         for(const i in com) {

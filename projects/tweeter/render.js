@@ -14,6 +14,7 @@ const Renderer = function() {
                 `<div id="${post.id}" class="post">
                     <div class="post-text">${post.text}</div>
                      ${postComments}
+                    <div class="delete" onclick="deletePost()">X</div>
                 </div>`
             );
         }

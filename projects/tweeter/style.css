@@ -10,12 +10,17 @@ body{
     padding-right: 25px;
     grid-template-columns: 3fr 1fr;
     grid-template-areas: 
-    "h .""i b""p p"
+    "h ."
+    "i b"
+    "p p"
 }
 
 #header{
     grid-area: h;
     color: #3498db;
+    font-size:65px;
+    margin-bottom: 25px;
+    position: relative;
 }
 
 #input{
@@ -45,9 +50,13 @@ body{
     margin: 10px;
     border-radius: 5px;
     padding: 10px;
+    padding-right: 5px;
+    position: relative;
+
+    background-color: whitesmoke;
 }
 
-#post:active{
+#post:active{    /* Twit button */ 
     background-color: #2980b9
 }
 
@@ -62,15 +71,36 @@ body{
 
 .delete{
     cursor: pointer;
-    color: #ecf0f1;
-    background-color: #e74c3c;
+    /* color: #ecf0f1; */
+    color: red;
+    /* background-color: #e74c3c; */
     display: inline-block;
-    padding: 5px;
+    padding: 3px;
     border-radius: 3px;
-    font-size: 0.8em;
+
+    border: 1px solid black;
+    font-weight: bold;
+
+    position: absolute;
+    /* margin-left: 50px; */
+
+    top: 5px;
+    right: 5px;
+    /* z-index: 100; */
+
+    /* font-family: Monospace; */
 }
 
 .delete-comment{
     cursor: pointer;
     color: #e74c3c;
+}
+
+#pic {
+    position: absolute;
+    max-width: 30px;
+    max-height: 30px;
+    margin: 10px;
+    margin-top: 2px;
+    margin-left: 10px;
 }
