@@ -2,13 +2,16 @@
 const posts = [{name: "Orya", text: "My Text"}]
 
 const render = function() {
+    let id = 0;
     $("#container").empty()
 
     for (const post of posts) {
-        $("#container").append(`<div class="posts">
+        $("#container").append(`<div id="${id}" class="posts">
                             <span class="names">${post.name}:</span>
                             <span class="text">${post.text}</span>
                           </div>`)
+
+        id += 1;
     }
 }
 
@@ -27,10 +30,13 @@ $("button").on("click", function() {
 })
 
 
-// $("#container").on("click", ".posts", function() {
-//     $(this).remove()
-//     console.log($(this));
-        
-//     render()
-// })
+$("#container").on("click", ".posts", function() {
+    
+    console.log($(this).attr("id"));
+
+    // loop over posts - search for a match for $("#found_id") where <span>'s match 
+        // or use events
+
+    // render()
+})
 
