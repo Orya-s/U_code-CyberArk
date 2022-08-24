@@ -8,8 +8,8 @@ const rend = function() {
 rend();
 
 
+// add post
 
-// twit = add post   -  already in html #post.onclick
 const post = function() {
     const p = $("#input").val();
     if(p.length == 0){
@@ -22,28 +22,30 @@ const post = function() {
     $("#input").val("");
 }
 
-// $("#post").on("click", function() {
-//     const p = $("#input").val();
-//     tweeter.addPost(p);  
-//     rend();
-    
-//     $("#input").val("");
-// })
 
 
+// add comment
 
-// add comment  (like twit)
+$("#posts").on("click", ".add-comment", function() {
+    const pId = $(this).closest(".post").attr("id");
+    const text = $(this).prev(".comment-input").val();
+    if(text.length > 0) {
+        tweeter.addComment(pId, text);
+        rend()
+    }
+})
+
 
 
 // remove post
 
-// on.click()
+$("#posts").on("click", ".delete", function() {
+    const p = $(this).closest(".post")
+    tweeter.removePost(p.attr("id"));
+    rend();
+})
 
-// const deletePost = function() {
-//     const p = $(this).closest(".post")
-//     const pId = $(p).attr("id")
-//     console.log(p);
-// }
+
 
 
 

@@ -31,14 +31,8 @@ const Tweeter = function() {
         }
     }
 
-    // let _maxPId = function() {
-    //     return _lastPost()["id"].slice(1);
-    // } 
     let _maxPId = 2;
 
-    // let _maxCId = function() {
-    //     return _lastPost()["comments"][_lastPost()["comments"].length-1]["id"].slice(1);
-    // } 
     let _maxCId = 6;
 
     const getPosts = function() {
