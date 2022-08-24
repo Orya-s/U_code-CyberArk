@@ -1,3 +1,4 @@
+
 const tweeter = Tweeter()
 const renderer = Renderer()
 
@@ -6,6 +7,10 @@ const rend = function() {
 }
 
 rend();
+
+
+
+// EVENTS
 
 
 // add post
@@ -47,6 +52,11 @@ $("#posts").on("click", ".delete", function() {
 
 
 
-
-
 // remove comment
+
+$("#posts").on("click", ".delete-comment", function() {
+    const cId = $(this).closest(".comments").attr("id");
+    const pId = $(this).closest(".post").attr("id");
+    tweeter.removeComment(pId, cId)
+    rend()
+})
