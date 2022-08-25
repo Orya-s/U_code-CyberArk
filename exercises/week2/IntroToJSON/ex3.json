@@ -1,0 +1,120 @@
+{
+    "animals": 
+    [
+        {
+            "name": "Cow",
+            "weight": 
+                {
+                    "count": 600,
+                    "unit": "kg"
+                },
+            "location": "",
+            "endangered": true,
+            "diet": 
+                [
+                    {
+                        "food": "grass",
+                        "precentage": "20%"
+                    },
+                    {
+                        "food": "weed",
+                        "precentage": "80%"
+                    }
+                ],
+            "eaten by": ["Lions"],
+            "deliciousness": 5
+        },
+        {
+            "name": "Cow",
+            "weight": 
+                {
+                    "count": 600,
+                    "unit": "kg"
+                },
+            "location": "",
+            "endangered": true,
+            "diet": 
+                [
+                    {
+                        "food": "grass",
+                        "precentage": "20%"
+                    },
+                    {
+                        "food": "weed",
+                        "precentage": "80%"
+                    }
+                ],
+            "eaten by": ["Lions"],
+            "deliciousness": 5
+        },
+        {
+            "name": "Cow",
+            "weight": 
+                {
+                    "count": 600,
+                    "unit": "kg"
+                },
+            "location": "",
+            "endangered": true,
+            "diet": 
+                [
+                    {
+                        "food": "grass",
+                        "precentage": "20%"
+                    },
+                    {
+                        "food": "weed",
+                        "precentage": "80%"
+                    }
+                ],
+            "eaten by": ["Lions"],
+            "deliciousness": 5
+        },
+        {
+            "name": "Cow",
+            "weight": 
+                {
+                    "count": 600,
+                    "unit": "kg"
+                },
+            "location": "",
+            "endangered": true,
+            "diet": 
+                [
+                    {
+                        "food": "grass",
+                        "precentage": "20%"
+                    },
+                    {
+                        "food": "weed",
+                        "precentage": "80%"
+                    }
+                ],
+            "eaten by": ["Lions"],
+            "deliciousness": 5
+        },
+        {
+            "name": "Cow",
+            "weight": 
+                {
+                    "count": 600,
+                    "unit": "kg"
+                },
+            "location": "",
+            "endangered": true,
+            "diet": 
+                [
+                    {
+                        "food": "grass",
+                        "precentage": "20%"
+                    },
+                    {
+                        "food": "weed",
+                        "precentage": "80%"
+                    }
+                ],
+            "eaten by": ["Lions"],
+            "deliciousness": 5
+        }
+    ]
+}
