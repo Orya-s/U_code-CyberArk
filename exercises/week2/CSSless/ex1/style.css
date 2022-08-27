@@ -1,0 +1,15 @@
+#container {
+  background-color: #a11919;
+  width: 300px;
+  height: 450px;
+  position: absolute;
+  margin-left: 50%;
+  left: -170px;
+  top: 50px;
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  grid-template-areas: "l" "j";
+}
+#container #login {
+  background-color: #b41f1f;
+}
