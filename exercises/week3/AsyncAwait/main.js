@@ -9,10 +9,10 @@ const fetchRecipes = function (ingredient) {
 
 
 // ans = 
-const fetchRecipes = async function (surname) {
-    let data = await $.get(`/recipe/${ingredient}`)
-    console.log(data)
-}
+// const fetchRecipes = async function (surname) {
+//     let data = await $.get(`/recipe/${ingredient}`)
+//     console.log(data)
+// }
 
 
 
