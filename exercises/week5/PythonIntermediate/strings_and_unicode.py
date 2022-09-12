@@ -141,7 +141,7 @@ def string_number_to_int(stringNum):
     arr = [*stringNum]
     for i, s in enumerate(arr):
         if ord("0") <= ord(s) <= ord("9"):   # "4"
-            num += (ord(s) - 48) * (10 ** (len(arr) - i-1))
+            num += (ord(s) - ord("0")) * (10 ** (len(arr) - i-1))
         else:
             return nan
     return num
