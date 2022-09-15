@@ -94,10 +94,8 @@ print("\n")
 # for index, elem in my_enumerate([10, 20, 30, 40], 10):
 #   print(index, elem)  
     
-    
-    
-      
 print("\n")
+
 
 
 # ex 2
@@ -111,7 +109,6 @@ def my_accumulate(numbers):
       idx += 1
       yield sum
     except (StopIteration, IndexError) as e:
-      # print("no more items") 
       break
 
 
@@ -123,8 +120,6 @@ print("\n")
 
 
 
-
-# ex 3
 
 # ex3
 def get_prime_factors_generator(number):
@@ -154,38 +149,9 @@ for x in get_prime_factors_generator(100):
     print(x)
     
     
-    
 print("\n")
     
     
-# def is_prime(number):
-#   print("is_prime", number)
-#   return len([False for n in range(2, int(number / 2 + 1)) if (number % n == 0)]) == 0
-
-
-# def get_prime_factors_generator(number):
-#   print("main func", number)
-#   if number == 1 or number == 0:
-#     return
-  
-#   if is_prime(number):
-#     print("calling is_prime", number)
-#     yield number
-  
-#   for n in range(int(number / 2 + 1), 1, -1):
-#     if number % n == 0:
-#       print("if", n)
-#       return get_prime_factors_generator(n)
-  
-  # else:
-  #   return get_prime_factors_generator(number / 2 + 1)
-  
-
-
-
-
-
-
 
 
 # ex 4
