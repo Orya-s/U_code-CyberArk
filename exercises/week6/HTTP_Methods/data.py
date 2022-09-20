@@ -1,4 +1,6 @@
 wordCounter = {
-    "Hello": 3,
-    "World": 2
+    "hello": 3,
+    "world": 2
 }
+
+total_count = 5
