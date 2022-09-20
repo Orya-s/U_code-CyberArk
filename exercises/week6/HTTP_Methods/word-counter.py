@@ -66,8 +66,11 @@ async def add_sentence(response:Response, sentence=""):
 def delete_word(word, response:Response):
     word = ignore_special_chars(word.lower())
     value = wordCounter.get(word, None)
+    
     if value is not None:
         wordCounter.pop(word)
+        global total_count 
+        total_count -= 1
         return {"removed": word, "previous count:": value}
     response.status_code = status.HTTP_404_NOT_FOUND
     return f"{word} was not in wordCounter data"
