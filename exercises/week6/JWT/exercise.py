@@ -108,7 +108,7 @@ async def login_for_access_token(form_data: OAuth2PasswordRequestForm = Depends(
         )
     access_token_expires = timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
     access_token = create_access_token(
-        data={"super": user.password}, expires_delta=access_token_expires
+        data={"sub": user.username}, expires_delta=access_token_expires
     )
     return {"access_token": access_token, "token_type": "bearer"}
 
@@ -121,4 +121,4 @@ async def read_own_items(current_user: User = Depends(get_current_active_user)):
     return [{"item_id": "Foo", "owner": current_user.username}]
 
 if __name__ == "__main__":
-    uvicorn.run("exercise_1:app", host="127.0.0.1", port=8000, log_level="info")
+    uvicorn.run("exercise_1_solution:app", host="127.0.0.1", port=8000, log_level="info")
